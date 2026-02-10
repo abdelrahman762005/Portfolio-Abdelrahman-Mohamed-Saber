@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdelrahman Mohamed Saber | AI Engineer</title>
+  <meta name="description" content="4D-style AI portfolio for Abdelrahman Mohamed Saber." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="intro-screen" id="intro-screen" role="dialog" aria-label="Welcome intro">
+    <video class="intro-video" autoplay muted loop playsinline>
+      <source src="https://cdn.coverr.co/videos/coverr-coding-on-a-laptop-1579/1080p.mp4" type="video/mp4" />
+    </video>
+    <div class="intro-overlay" aria-hidden="true"></div>
+    <canvas class="intro-strike" id="intro-strike" aria-hidden="true"></canvas>
+    <div class="intro-fire-curtain" id="intro-fire-curtain" aria-hidden="true">
+      <div class="curtain-wing left">
+        <span class="fire-sheet back"></span>
+        <span class="fire-sheet mid"></span>
+        <span class="fire-sheet front"></span>
+        <span class="fire-edge"></span>
+      </div>
+      <div class="curtain-wing right">
+        <span class="fire-sheet back"></span>
+        <span class="fire-sheet mid"></span>
+        <span class="fire-sheet front"></span>
+        <span class="fire-edge"></span>
+      </div>
+      <span class="curtain-seam"></span>
+    </div>
+    <div class="intro-content">
+      <p class="intro-kicker" id="intro-kicker-text">Igniting AI Interface</p>
+      <h1 class="intro-title" aria-label="Welcome to my portfolio">
+        <span id="intro-typed"></span>
+        <span class="typing-caret" aria-hidden="true"></span>
+      </h1>
+      <p class="intro-name" id="intro-subtitle">Abdelrahman Mohamed Saber | AI Engineer</p>
+      <div class="intro-actions">
+        <button class="btn btn-ghost intro-sound" id="intro-sound" type="button">Enable Sound</button>
+        <button class="btn btn-secondary intro-skip" id="intro-skip" type="button">Skip Intro</button>
+      </div>
+    </div>
+    <div class="intro-line" aria-hidden="true"></div>
+  </div>
+
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <canvas class="ai-grid" id="ai-grid" aria-hidden="true"></canvas>
+  <canvas class="energy-field" id="energy-field" aria-hidden="true"></canvas>
+  <div class="robot-scene" id="robot-scene" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="logo" aria-label="Home">AMS</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">AI Services</a>
+        <a href="#work">AI Projects</a>
+        <a href="#process">Workflow</a>
+        <a href="#contact">Contact</a>
+        <a href="projects.html">All Projects</a>
+        <span class="nav-indicator" id="nav-indicator" aria-hidden="true"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container reveal" id="about">
+      <div class="hero-depth" aria-hidden="true">
+        <span class="depth-layer d1"></span>
+        <span class="depth-layer d2"></span>
+        <span class="depth-layer d3"></span>
+        <div class="ai-core" id="ai-core">
+          <span class="core-ring ring-1"></span>
+          <span class="core-ring ring-2"></span>
+          <span class="core-ring ring-3"></span>
+          <span class="core-ring ring-4"></span>
+          <span class="core-node n1"></span>
+          <span class="core-node n2"></span>
+          <span class="core-node n3"></span>
+          <span class="core-node n4"></span>
+          <span class="core-node n5"></span>
+          <span class="core-node n6"></span>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow electric">AI Track | Available for Projects</p>
+        <h1 class="ai-headline">I build smart AI systems with immersive 4D-style experiences.</h1>
+        <p class="hero-text">I am Abdelrahman Mohamed Saber, an AI-focused developer building intelligent assistants, NLP pipelines, and computer vision solutions with cinematic product presentation.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Build AI With Me</a>
+          <a class="btn btn-secondary" href="#work">See AI Projects</a>
+          <a class="btn btn-ghost" href="mailto:askasem76@gmail.com?subject=CV%20Request">Request CV</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel electric-border" aria-label="Quick profile">
+        <h2>AI Snapshot</h2>
+        <ul>
+          <li><strong>Stack:</strong> Python, TensorFlow, PyTorch</li>
+          <li><strong>Strength:</strong> NLP, CV, Prompt Engineering</li>
+          <li><strong>Focus:</strong> Accuracy, Explainability, Deployment</li>
+          <li><strong>Status:</strong> Open to AI freelance and full-time roles</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="metrics container reveal" aria-label="Key metrics">
+      <article class="tilt"><strong>12+</strong><span>AI Models Built</span></article>
+      <article class="tilt"><strong>6+</strong><span>Deployed AI Demos</span></article>
+      <article class="tilt"><strong>95%</strong><span>Best Validation Accuracy</span></article>
+      <article class="tilt"><strong>24h</strong><span>Fast Project Updates</span></article>
+    </section>
+
+    <section class="services container reveal" id="services">
+      <div class="section-head">
+        <p class="eyebrow">AI Services</p>
+        <h2>What I can build for your AI product</h2>
+      </div>
+      <div class="cards three">
+        <article class="card tilt">
+          <h3>AI Chatbot Development</h3>
+          <p>Context-aware assistants for support, lead qualification, and internal workflows with prompt tuning.</p>
+        </article>
+        <article class="card tilt">
+          <h3>Computer Vision Solutions</h3>
+          <p>Image classification and detection pipelines for automation and monitoring use cases.</p>
+        </article>
+        <article class="card tilt">
+          <h3>NLP and Text Intelligence</h3>
+          <p>Sentiment analysis, text classification, and retrieval workflows for multilingual content.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="work container reveal" id="work">
+      <div class="section-head">
+        <p class="eyebrow">Featured AI Work</p>
+        <h2>Selected AI projects</h2>
+      </div>
+      <div class="cards three">
+        <article class="card project tilt hologram">
+          <div class="project-thumb thumb-a" aria-hidden="true"></div>
+          <h3>Arabic RAG Assistant</h3>
+          <p>Retrieval-augmented chatbot connected to custom documents with grounded and source-aware answers.</p>
+          <p class="tags">Python | LangChain | Vector DB</p>
+        </article>
+        <article class="card project tilt hologram">
+          <div class="project-thumb thumb-b" aria-hidden="true"></div>
+          <h3>Vision Defect Detection</h3>
+          <p>CNN model for visual inspection with real-time prediction dashboard and confidence monitoring.</p>
+          <p class="tags">PyTorch | OpenCV | FastAPI</p>
+        </article>
+        <article class="card project tilt hologram">
+          <div class="project-thumb thumb-c" aria-hidden="true"></div>
+          <h3>Predictive Analytics Engine</h3>
+          <p>End-to-end forecasting pipeline with feature engineering, model comparison, and drift tracking.</p>
+          <p class="tags">Scikit-learn | Pandas | MLflow</p>
+        </article>
+      </div>
+      <div class="work-more">
+        <a class="btn btn-secondary" href="projects.html">View Full Case Studies</a>
+      </div>
+    </section>
+
+    <section class="process container reveal" id="process">
+      <div class="section-head">
+        <p class="eyebrow">Workflow</p>
+        <h2>How I deliver AI projects</h2>
+      </div>
+      <div class="steps">
+        <article class="step tilt"><span>01</span><h3>Problem Framing</h3><p>Define data, objectives, and success KPIs for measurable outcomes.</p></article>
+        <article class="step tilt"><span>02</span><h3>Modeling</h3><p>Train and evaluate multiple baselines before selecting the best architecture.</p></article>
+        <article class="step tilt"><span>03</span><h3>Optimization</h3><p>Improve inference speed, robustness, and explainability for production readiness.</p></article>
+        <article class="step tilt"><span>04</span><h3>Deployment</h3><p>Deliver API and monitoring-ready AI system with clear handoff docs.</p></article>
+      </div>
+    </section>
+
+    <section class="testimonials container reveal" aria-label="Testimonials">
+      <div class="section-head">
+        <p class="eyebrow">Feedback</p>
+        <h2>What collaborators say</h2>
+      </div>
+      <div class="cards two">
+        <article class="card quote">
+          <p>"Fast execution, clean communication, and careful UI implementation. The final result looked much more premium than expected."</p>
+          <h3>Startup Owner</h3>
+        </article>
+        <article class="card quote">
+          <p>"Very reliable frontend work. Responsive behavior and spacing details were done professionally across all breakpoints."</p>
+          <h3>Project Teammate</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact container reveal" id="contact">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build your next AI product</h2>
+      </div>
+      <p class="contact-text">Share your AI use case, available data, and timeline. I will reply with an actionable model and deployment plan.</p>
+
+      <form
+        id="contact-form"
+        class="contact-form"
+        data-emailjs-service="service_xxxxxxx"
+        data-emailjs-template="template_xxxxxxx"
+        data-emailjs-public="YOUR_EMAILJS_PUBLIC_KEY"
+        novalidate
+      >
+        <label>
+          Full Name
+          <input type="text" name="fullName" placeholder="Your full name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="your.email@example.com" required />
+        </label>
+        <label>
+          Service
+          <select name="service" required>
+            <option value="">Select a service</option>
+            <option>AI Chatbot</option>
+            <option>Computer Vision Pipeline</option>
+            <option>NLP / Text Analytics</option>
+            <option>Custom AI Project</option>
+          </select>
+        </label>
+        <label class="full">
+          Project Brief
+          <textarea name="message" rows="5" placeholder="Tell me about your AI use case, dataset, expected output, and deadline." required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send Project Request</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-links">
+        <a href="mailto:askasem76@gmail.com">askasem76@gmail.com</a>
+        <a href="https://wa.me/201006175210" target="_blank" rel="noreferrer">WhatsApp</a>
+        <a href="https://www.linkedin.com/in/abdelrahman-mohamed-79b49b321/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/abdelrahman762005" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Abdelrahman Mohamed Saber. Crafted with intent.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

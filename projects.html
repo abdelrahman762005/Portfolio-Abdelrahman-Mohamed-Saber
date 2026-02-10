@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Projects | Abdelrahman Mohamed Saber</title>
+  <meta name="description" content="Complete projects list for Abdelrahman Mohamed Saber." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <canvas class="ai-grid" id="ai-grid" aria-hidden="true"></canvas>
+  <canvas class="energy-field" id="energy-field" aria-hidden="true"></canvas>
+  <div class="robot-scene" id="robot-scene" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="index.html" class="logo" aria-label="Home">AMS</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">AI Services</a>
+        <a href="index.html#work">AI Projects</a>
+        <a href="index.html#process">Workflow</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="projects.html" class="active">All Projects</a>
+        <span class="nav-indicator" id="nav-indicator" aria-hidden="true"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero container reveal">
+      <p class="eyebrow">Project Library</p>
+      <h1>All frontend case studies</h1>
+      <p class="hero-text">A curated list of projects focused on responsive design, performance, and practical user journeys.</p>
+      <a class="btn btn-secondary" href="index.html">Back to Home</a>
+    </section>
+
+    <section class="container reveal">
+      <div class="cards three">
+        <article class="card project">
+          <div class="project-thumb thumb-a" aria-hidden="true"></div>
+          <h3>Digital Agency Website</h3>
+          <p>Premium landing architecture with strong CTA flow and service storytelling.</p>
+          <p class="tags">Role: Frontend Developer</p>
+        </article>
+        <article class="card project">
+          <div class="project-thumb thumb-b" aria-hidden="true"></div>
+          <h3>E-commerce Frontend</h3>
+          <p>Product listing interface with category filtering and clean card-based presentation.</p>
+          <p class="tags">Role: Frontend Developer</p>
+        </article>
+        <article class="card project">
+          <div class="project-thumb thumb-c" aria-hidden="true"></div>
+          <h3>Task Dashboard UI</h3>
+          <p>Dashboard layout with clear content hierarchy and reusable blocks.</p>
+          <p class="tags">Role: Frontend Developer</p>
+        </article>
+        <article class="card project">
+          <div class="project-thumb thumb-d" aria-hidden="true"></div>
+          <h3>Restaurant Booking Page</h3>
+          <p>Booking-focused page with menu previews and reservation-first layout.</p>
+          <p class="tags">Role: UI Implementation</p>
+        </article>
+        <article class="card project">
+          <div class="project-thumb thumb-e" aria-hidden="true"></div>
+          <h3>Portfolio Template Pro</h3>
+          <p>Reusable personal brand template with modular sections and dark theme styling.</p>
+          <p class="tags">Role: Frontend Developer</p>
+        </article>
+        <article class="card project">
+          <div class="project-thumb thumb-f" aria-hidden="true"></div>
+          <h3>Startup Product Page</h3>
+          <p>Product storytelling page with feature panels and conversion-focused CTA blocks.</p>
+          <p class="tags">Role: Frontend Developer</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Abdelrahman Mohamed Saber. Crafted with intent.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
